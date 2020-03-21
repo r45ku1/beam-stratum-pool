@@ -1,0 +1,75 @@
+{
+  "_from": "git+ssh://git@github.com/r45ku1/beam-stratum-pool.git",
+  "_id": "stratum-pool@0.2.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/stratum-pool",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+ssh://git@github.com/r45ku1/beam-stratum-pool.git",
+    "rawSpec": "git+ssh://git@github.com/r45ku1/beam-stratum-pool.git",
+    "saveSpec": "git+ssh://git@github.com/r45ku1/beam-stratum-pool.git",
+    "fetchSpec": "ssh://git@github.com/r45ku1/beam-stratum-pool.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+ssh://git@github.com/r45ku1/beam-stratum-pool.git#a92dbd149618dab2ef07d2c4009ce598c2fea275",
+  "_spec": "git+ssh://git@github.com/r45ku1/beam-stratum-pool.git",
+  "_where": "/root/beam-pool",
+  "author": {
+    "name": "s-nomp developers, icemining.ca, raskul.com"
+  },
+  "bugs": {
+    "url": "https://github.com/s-nomp/node-stratum-pool/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "egyptianbman"
+    },
+    {
+      "name": "TheSeven"
+    },
+    {
+      "name": "vekexasia"
+    }
+  ],
+  "dependencies": {
+    "async": "^2.6.3",
+    "base58-native": "^0.1.4",
+    "bignum": "^0.13.0",
+    "bitgo-utxo-lib": "git+https://github.com/miketout/bitgo-utxo-lib.git",
+    "equihashverify": "git+ssh://git@github.com/mmitech/equihashverify.git",
+    "merkle-bitcoin": "^1.0.2",
+    "promise": "^8.0.3",
+    "verushash": "git+https://github.com/VerusCoin/verushash-node.git#e6572f345b8c24e4a1212f6c9eb66c1c400d83e1"
+  },
+  "deprecated": false,
+  "description": "High performance stratum pool server in Node.js",
+  "engines": {
+    "node": ">=8.11"
+  },
+  "homepage": "https://github.com/s-nomp/node-stratum-pool",
+  "keywords": [
+    "stratum",
+    "mining",
+    "pool",
+    "server",
+    "poolserver",
+    "bitcoin",
+    "litecoin",
+    "scrypt"
+  ],
+  "license": "GPL-2.0",
+  "main": "lib/index.js",
+  "name": "stratum-pool",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-nomp/node-stratum-pool.git"
+  },
+  "version": "0.2.0"
+}
