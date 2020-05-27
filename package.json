@@ -21,7 +21,7 @@
   "_spec": "git+ssh://git@github.com/r45ku1/beam-stratum-pool.git",
   "_where": "/root/beam-pool",
   "author": {
-    "name": "s-nomp developers, icemining.ca, raskul.com"
+    "name": "s-nomp developers, icemining.ca, raskul.com, Lolliedieb"
   },
   "bugs": {
     "url": "https://github.com/s-nomp/node-stratum-pool/issues"
@@ -43,7 +43,7 @@
     "base58-native": "^0.1.4",
     "bignum": "^0.13.0",
     "bitgo-utxo-lib": "git+https://github.com/miketout/bitgo-utxo-lib.git",
-    "equihashverify": "https://github.com/mmitech/equihashverify.git",
+    "beamhashverify": "https://github.com/Lolliedieb/beamhashverify.git",
     "merkle-bitcoin": "^1.0.2",
     "promise": "^8.0.3",
     "verushash": "git+https://github.com/VerusCoin/verushash-node.git#e6572f345b8c24e4a1212f6c9eb66c1c400d83e1"
